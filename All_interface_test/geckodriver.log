@@ -1,0 +1,53 @@
+1506064875122	geckodriver	INFO	geckodriver 0.18.0
+1506064875154	geckodriver	INFO	Listening on 127.0.0.1:7455
+1506064875613	geckodriver::marionette	INFO	Starting browser D:\firefox\firefox.exe with args ["-marionette"]
+1506064877966	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox/omni.ja!/components/addonManager.js:65
+1506064880752	Marionette	INFO	Enabled via --marionette
+JavaScript warning: resource://addoninstaller/log4moz.js, line 489: Date.prototype.toLocaleFormat is deprecated; consider using Intl.DateTimeFormat instead
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+[GPU 13468] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14104] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506064889819	Marionette	INFO	Listening on port 7459
+1506064890007	Marionette	INFO	Listening on port 7459
+1506064890352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506064890541	Marionette	DEBUG	loaded listener.js
+1506064893897	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506064894798	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506064894799	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506064902360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://open.clife.cn/"
+1506064904413	Marionette	DEBUG	Received DOM event "pageshow" for "https://open.clife.cn/"
+1506064908526	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506064911974	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 14368] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506068391660	geckodriver	INFO	geckodriver 0.18.0
+1506068391694	geckodriver	INFO	Listening on 127.0.0.1:7991
+1506068393370	geckodriver::marionette	INFO	Starting browser D:\firefox\firefox.exe with args ["-marionette"]
+1506068395711	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox/omni.ja!/components/addonManager.js:65
+1506068397874	Marionette	INFO	Enabled via --marionette
+JavaScript warning: resource://addoninstaller/log4moz.js, line 489: Date.prototype.toLocaleFormat is deprecated; consider using Intl.DateTimeFormat instead
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+[GPU 15204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13600] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14020] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14020] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506068406601	Marionette	INFO	Listening on port 7996
+1506068406718	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506068406819	Marionette	INFO	Listening on port 7996
+1506068406909	Marionette	DEBUG	loaded listener.js
+1506068410207	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506068413788	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506068413789	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506068420207	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://open.clife.cn/"
+1506068422273	Marionette	DEBUG	Received DOM event "pageshow" for "https://open.clife.cn/"
+1506068424568	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506068427902	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 14204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
